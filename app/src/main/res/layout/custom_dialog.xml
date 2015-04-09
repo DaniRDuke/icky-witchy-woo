@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:id="@+id/dialog_title_layout"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/ufo_tab_highlight"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true"
+            android:ellipsize="end" />
+        
+        <ImageView
+            android:id="@+id/dialog_image_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+			android:layout_gravity="center_vertical"
+            android:src="@drawable/btn_dialog_normal"
+            android:contentDescription="@string/lbl_btn_close" />
+	
+	</LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_title_divider" 
+        style="@style/HorizontalSeparator"
+        android:layout_below="@+id/dialog_title_layout" />
+
+    	
+    <ListView
+	    android:id="@+id/dialog_listview1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:divider="@color/divider_color"
+    	android:dividerHeight="2dp"
+	    android:layout_below="@+id/dialog_title_divider" />
+
+    <ListView
+	    android:id="@+id/dialog_listview2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:divider="@color/divider_color"
+    	android:dividerHeight="2dp"
+	    android:visibility="gone"
+	    android:layout_below="@+id/dialog_listview1" />
+    
+</RelativeLayout>

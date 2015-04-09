@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/videoInfoTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5dp"
+	        android:text="@string/msg_retrieving_video_title"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/videoInfoStats"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5dp"
+	        android:text="" />
+	    	    
+	    <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="5dp"
+		    android:orientation="horizontal" >
+		    
+		    <ImageView
+		        android:id="@+id/videoInfoImageView"
+		        android:layout_width="200dp"
+		        android:layout_height="150dp"
+		        android:contentDescription="@string/content_youtube_thumbnail_image"
+		        android:src="@drawable/youtube" />
+		
+		   	<ImageButton android:id="@+id/videoInfoPlay"
+		   	     android:src="@drawable/video_play_48"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:contentDescription="@string/content_youtube_play_video"
+			     android:gravity="center"
+			     android:background="@android:color/transparent"
+			     android:layout_gravity="center"
+			     android:padding="10dp" />
+		   		
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:id="@+id/videoInfoDescription"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5dp"
+	        android:text="@string/msg_retrieving_video_description"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	    
+	</LinearLayout>
+</ScrollView>

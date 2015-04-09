@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/listRow"
+    android:tag=""
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:paddingLeft="5dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="2dp" />

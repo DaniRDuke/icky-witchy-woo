@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="dark_orange">#8B4500</color>
+     <color name="ufo_tab_highlight">#ffad41</color>
+	 <color name="selected_background_color">#4b0000</color>
+	 <color name="divider_color">#4b0000</color>     
+     
+     <!-- <color name="ufo_btn_normal_main">#FFFFFF</color>
+     <color name="ufo_btn_selected_main">#ffad41</color>
+     <color name="ufo_btn_normal_shadow">#d8d8d8</color>
+     <color name="ufo_btn_selected_shadow">#ff7300</color> -->
+     
+     <color name="ufo_btn_oval_center">#e8e8e8</color><!-- nearly white  -->
+     <color name="ufo_btn_tube_start_end_silver">#292929</color>
+     <color name="ufo_btn_tube_start_end_brass">#5E2605</color><!-- #551011 #B8860B #C76114 -->
+     <color name="ufo_btn_tube_start_end_cobalt">#2F2F4F</color><!-- #3D59AB -->
+     <color name="ufo_btn_tube_center">#FFFFFF</color><!-- white  -->
+     <color name="ufo_btn_tube_start_end_pressed">#8B4500</color><!-- dark orange  -->
+     
+     <!-- not used yet -->
+     <!-- lightest to darkest -->
+    <!--  <color name="gold">#FFD700</color>
+     <color name="goldenrod">#FFC125</color>
+     <color name="dark_goldenrod">#FFB90F</color>
+     
+     <color name="orange_red">#FF2400</color>
+     <color name="orange_red_2">#FF4500</color>
+     <color name="orange_red_3">#EE4000</color>
+     
+     <color name="med_orange">#FFA500</color>
+     <color name="dark_orange_0">#FF8C00</color>
+     <color name="chocolate_orange">#FF7F24</color>
+     <color name="dark_orange_1">#FF7F00</color>
+     <color name="dark_orange_2">#EE7600</color>
+     <color name="dark_orange_3">#CD6600</color> -->
+     
+</resources>

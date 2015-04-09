@@ -1,0 +1,124 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SectionTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="MenuFrameItemBasics">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">@dimen/menu_padding_left_right</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingRight">@dimen/menu_padding_left_right</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="MenuFrameItem" parent="MenuFrameItemBasics">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+    <style name="MenuFrameItemSelected" parent="MenuFrameItemBasics">
+        <item name="android:textColor">@color/ufo_tab_highlight</item>
+    </style>    
+
+    <style name="LargeMenuFrameItemBasics">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:paddingLeft">15dip</item> -->
+        <item name="android:paddingTop">12dip</item>
+        <!-- <item name="android:paddingRight">15dip</item> -->
+        <item name="android:paddingBottom">15dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="LargeMenuFrameItem" parent="LargeMenuFrameItemBasics">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+    <style name="LargeMenuFrameItemSelected" parent="LargeMenuFrameItemBasics">
+        <item name="android:textColor">@color/ufo_tab_highlight</item>
+    </style>
+    <style name="MenuFrameImageItem600">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="MenuFrameImageItem800">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <!-- <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item> -->
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="UfoBtn">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+    <style name="DialogUfoBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">.5</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
+    
+    <style name="BtnSpacer">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">3dp</item>
+    </style>
+
+    <style name="TabSpacer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="ImageSpacer800">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">10dp</item>
+    </style>
+
+    <style name="ImageSpacer600">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">5dp</item>
+    </style>
+    
+    <style name="SpacerFill">
+        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="SpacerEasyFill">
+        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="HiddenSpinner">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    
+    <style name="HorizontalSeparator">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">2dp</item>
+    	<item name="android:background">@color/divider_color</item>	
+    </style>
+    
+    <style name="VerticalSeparator">
+    	<item name="android:layout_width">2dp</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:background">@color/divider_color</item>	
+    </style>
+    
+</resources>

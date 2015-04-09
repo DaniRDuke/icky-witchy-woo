@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/duke/android/ufowatch/common/RssFeedXmlHandler.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/duke/android/ufowatch/ui/tablet/VideoInfoFrag.java" />
+    </issue>
+</lint>

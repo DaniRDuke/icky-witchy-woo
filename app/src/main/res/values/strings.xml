@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DEV -->
+    <string name="oauth2_client_id">423665958477.apps.googleusercontent.com</string>
+    <!-- PROD -->
+	<!-- <string name="oauth2_client_id">423665958477-vp92lmlitt71m1eulqnrtp4820885c65.apps.googleusercontent.com</string> -->
+	
+    <string name="menu_search">Search</string> 
+    <string name="title_app_name">UFO Watch</string>
+    <string name="title_ufo_watch_activity">UFO Watch</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_dialog_youtube">YouTube</string>
+    <string name="title_youtube_permission">YouTube Permission</string>
+    
+    <!-- Handset -->
+    <string name="title_tab_video_list">Today\'s Videos</string>
+    <string name="title_tab_video">YouTube</string>
+    <string name="title_tab_search_engines">Search Engines</string>
+    <string name="title_tab_sites">Various</string>
+    <string name="title_tab_feeds">News Feeds</string>
+    <string name="title_tab_blogs">Blogs</string>
+    <!-- <string name="title_tab_reports">Reports</string> -->
+    <string name="title_video_information">Video Information</string>    
+    <!-- <string name="title_tab_blue_book">Blue Book</string> -->
+    
+    <!-- Shared  -->
+    <string name="title_menu_today">Last 24 hours</string>
+    <string name="title_menu_by_date">By Date</string>
+    <string name="title_menu_by_state">State</string>
+    <string name="title_menu_by_country">Country</string>
+    <string name="title_menu_ufowatchlists">Playlists</string>
+    <string name="title_menu_mylists">My Lists</string>
+    <string name="title_menu_channels">Channels</string>
+    <string name="title_menu_more">More&#8230;</string>
+    <string name="title_menu_reports">Reports</string>
+    <string name="title_menu_maps">Maps</string>
+    <string name="title_menu_feeds">Feeds</string>
+    <string name="title_menu_blogs">Blogs</string>
+    
+    <!-- Recent -->
+    <string name="title_videos_today">Today</string>
+    <string name="title_by_date">By Date</string>
+    <string name="title_region">Regional</string>
+    <string name="title_united_states">United States</string>
+    <string name="title_canada">Canada</string>
+    <string name="title_united_kingdom">United Kingdom</string>
+    <string name="title_mexico">Mexico</string>
+    <string name="title_france">France</string>
+    <string name="title_australia">Australia</string>
+    <string name="title_sub_us_canada_states">(by state)</string>
+    <string name="title_other_countries">More countries&#8230;</string>
+    <string name="title_sub_nuforc_reports">NUFORC (reports)</string>
+    
+    <!-- Dialogs -->
+    <string name="title_dialog_channels">Featured Channels</string>
+    <string name="title_dialog_ufowatchlists">UFO Watch Playlists</string>
+    <string name="title_dialog_youtube_actions">YouTube Actions</string>
+    <string name="title_dialog_more">Reports | Maps | Books | Photos</string>
+    <string name="title_dialog_feeds">RSS News Feeds</string>
+    <string name="title_dialog_blogs">Blogs</string>
+    <string name="title_dialog_myplaylists">My Playlists</string>
+    <string name="title_dialog_playlists">Playlists</string>
+    
+    <!-- Website, contact -->
+    <string name="title_website_name">UFO Watch Website</string>
+    <string name="subtitle_website_name">dukecreations.com</string>
+    <string name="contact_email">dani@dukecreations.com</string>
+    
+    <!-- 
+    ellipsis = &#8230; 
+    " = &quot;
+    ' = &apos;
+    < = &lt;
+    > = &gt;
+    & = &amp;
+    + = &#43;
+    - = &#45;
+    | = &#124;
+    trademark symbol = &#8482;
+    -->
+    
+    <string name="lbl_test">Get YouTube Feed for&#8230;</string>
+    <string name="lbl_search_engine_google">Google</string>
+    <string name="lbl_search_engine_bing">Bing</string>
+    <string name="lbl_search_engine_yahoo">Yahoo!</string>
+    <string name="lbl_source_news">News</string>
+    <string name="lbl_source_web">Web</string>
+    <string name="lbl_source_videos">Videos</string>
+    <string name="lbl_range_day">Past 24 hrs</string>
+    <string name="lbl_range_week">Past week</string>
+    <string name="lbl_subject_sightings">UFO sightings</string>
+    <string name="lbl_subject_beings">Extraterrestrial beings</string>
+    
+    <string name="lbl_btn_cancel">Cancel</string>
+    <string name="lbl_btn_search">Search</string>
+    <string name="lbl_btn_close">Close</string>
+    <string name="lbl_btn_settings">Settings</string>
+    <string name="lbl_btn_about">About</string>
+    <string name="lbl_btn_account">YouTube Account</string>
+    <string name="lbl_btn_share">Share</string>
+    <string name="lbl_btn_youtube_video">Video</string>
+    <string name="lbl_btn_youtube_channel">Channel</string>
+    <string name="lbl_btn_about_website">Website</string>
+    <string name="lbl_btn_about_email">Email</string>
+    <string name="lbl_btn_help">Help</string>
+    <string name="lbl_btn_create">Create</string>
+    <string name="lbl_btn_full_screen">Full Screen</string>
+    <string name="lbl_btn_youtube_options">Youtube Options</string>
+    
+    <string name="msg_error_retrieving_videos">Problem retrieving videos.</string>
+    <string name="msg_error_video_missing">Video is missing or cannot be played outside of YouTube.</string>
+    <string name="msg_error_there_is_a_problem">There was a problem, please try again.</string>
+    <string name="msg_retrieving_videos">Retrieving videos&#8230;</string>
+    <string name="msg_retrieving_video_title">Title&#8230;</string>
+    <string name="msg_retrieving_video_description">Description&#8230;</string>
+    <string name="msg_send_email_using">Send email using:</string>
+    <string name="msg_about_copyright">&#169; 2012 Dani Duke.\nAll Rights Reserved.</string>   
+    <string name="msg_about_feedback">Feedback or suggestions? Please send me an email.</string>
+	<string name="msg_supports_android_version">Supports Ice Cream Sandwich (v4.0.1) and up.</string>
+    <string name="msg_about_library_usage">UFO Watch utilies the following 3rd party library available under apache license-2.0.</string>   
+    <string name="msg_about_viewpager">ViewPagerExtensions - Author: Andreas Steutz</string>   
+    <string name="msg_about_openyoutubeactivity">OpenYouTubeActivity - Original author: Keyes Labs</string>   
+    <string name="msg_share_video">Share video link?</string>
+    <string name="msg_share_web_page">Share web page?</string>
+    <string name="msg_video_added_to_playlist">Video added to</string>
+    <string name="msg_video_liked">Video has been liked.</string>
+    <string name="msg_video_disliked">Video has been disliked.</string>
+    <string name="msg_video_ratingremoved">Video rating has been removed.</string>
+    <string name="msg_subscribed">You are subscribed to</string>
+    <string name="msg_no_playlists_found">No playlists found.</string>
+    <string name="msg_no_videos_found">No videos found.</string>
+    <string name="msg_grant_permission">You must first grant permission to an account.</string>
+    <string name="msg_loading">Loading&#8230;</string>
+    <string name="msg_play_all">Play All</string>
+    <string name="msg_sightings">Sightings</string>
+    
+    <string name="hint_search_entry">Video Search: greys roswell interdimensional nasa&#8230;</string>
+            
+    <string name="tag_empty_list">emptylist</string>
+    <string name="tag_my_list">mylist</string>
+        
+    <!-- URLs -->
+    <string name="url_dukecreations_ufowatch">http://www.dukecreations.com/UFO_Watch.html</string>
+    <string name="url_youtube_video">http://www.youtube.com/watch?v=</string>
+    <string name="url_youtube_channel">http://www.youtube.com/user/</string>
+    
+    <!-- UFO SITES URLs and Titles-->
+    <string name="url_site_strangegooglemaps">http://www.rodsbot.com/?cat=ufo</string>
+    <string name="title_site_strangegooglemaps">Strange Google maps</string>
+    <string name="url_site_u_database">http://classic-web.archive.org/web/20060904021154/http://www.larryhatch.net/REGMAPS.html</string>
+    <string name="title_site_u_database">*U* Database maps</string>
+    <string name="url_site_mufonbooks">http://www.mufonoc.org/books.htm</string>
+    <string name="title_site_mufonbooks">Recommended books (MUFON)</string>
+    <string name="url_site_cufosrecommended">http://www.cufos.org/books.html</string>
+    <string name="title_site_cufosrecommended">Recommended books (CUFOS)</string>
+    <string name="url_site_ufoevidenceliterature">http://www.ufoevidence.org/documents/doc1542.htm</string>
+    <string name="title_site_ufoevidenceliterature">Serious literature</string>
+    <string name="url_site_mactonniesliterature">http://mactonnies.com/ufobooks.html</string>
+    <string name="title_site_mactonniesliterature">Literature summary</string>
+    <string name="url_site_ufocasebookpictures">http://www.ufocasebook.com/bestufopictures.html</string>
+    <string name="title_site_ufocasebookpictures">Best pictures</string>
+    <string name="url_site_isaackoiphotos">http://www.isaackoi.com/alien-photos.html</string>
+    <string name="title_site_isaackoiphotos">Alien photos</string>
+    <string name="title_report_nuforcstates">Sightings N.America (NUFORC)</string>
+    <string name="title_report_nuforcmonthly">Sightings by month (NUFORC)</string>
+    <string name="title_report_nuforcshape">Sightings by shape (NUFORC)</string>
+    <string name="title_report_nuforcjetchase">Chase &amp; aircraft (NUFORC)</string>
+    <string name="url_report_nuforcstates">http://www.nuforc.org/webreports/</string>
+    <string name="url_report_nuforcmonthly">http://www.nuforc.org/webreports/ndxevent.html</string>
+    <string name="url_report_nuforcshape">http://www.nuforc.org/webreports/ndxshape.html</string>
+    <string name="url_report_nuforcjetchase">http://www.nuforc.org/Interlink.html</string>
+    
+    <!-- RSS FEEDS URLs and Titles-->
+    <string name="url_rss_mufonnews">http://www.mufon.com/17/feed</string>
+    <string name="title_rss_mufonnews">MUFON - UFO News</string>
+    <string name="url_rss_mufonalerts">http://www.mufon.com/25/feed</string>
+    <string name="title_rss_mufonalerts">MUFON - MUFON Alerts</string>
+    <string name="url_rss_rogermarsh">http://www.examiner.com/user/1565231/1872696/feed</string>
+    <string name="title_rss_rogermarsh">Roger Marsh (National ufo Examiner)</string>
+    <string name="url_rss_ufodigest">http://www.ufodigest.com/rss/new-articles</string>
+    <string name="title_rss_ufodigest">UFO Digest - Aliens and UFOs</string>
+    <string name="url_rss_ukufosightings">http://www.uk-ufo.co.uk/feed/</string>
+    <string name="title_rss_ukufosightings">UK UFO Sightings</string>
+    <string name="url_rss_ufoupdates">http://feeds.feedburner.com/UFOupdates?format=xml</string>
+    <string name="title_rss_ufoupdates">UFO Updates</string>
+    <string name="url_rss_openminds">http://www.openminds.tv/feed/</string>
+    <string name="title_rss_openminds">OpenMinds News and Investigations</string>
+    <string name="url_rss_ufocasebook">http://feeds.feedburner.com/feedburner/Qpaj?format=xml</string>
+    <string name="title_rss_ufocasebook">UFO CASEBOOK</string>
+    <string name="url_rss_supernaturalufo">http://www.supernaturalufo.com/feed/</string>
+    <string name="title_rss_supernaturalufo">SupernaturalUFO.com</string>
+    <string name="url_rss_fringe">http://aliencasebookfringe.blogspot.com/feeds/posts/default?alt=rss</string>
+    <string name="title_rss_fringe">Alien Casebook Fringe</string>
+    <string name="url_rss_stalker">http://feeds.feedburner.com/ufostalker?format=xml</string>
+    <string name="title_rss_stalker">UFO Stalker</string>
+    <string name="url_rss_ufonut">http://www.ufonut.com/feed</string>
+    <string name="title_rss_ufonut">UFO NUT</string>
+    <string name="url_rss_disclosed">http://www.ufosdisclosed.com/community/forums/the-main-ufo-discussion.2/index.rss</string>
+    <string name="title_rss_disclosed">UFOs Disclosed - Main Discussion</string>
+    <string name="url_rss_nationalufocenter">http://nationalufocenter.com/feed/</string>
+    <string name="title_rss_nationalufocenter">National UFO Center</string>
+    <string name="url_rss_paranormalradionetwork">http://paranormalradionetwork.org/rss2.aspx</string>
+    <string name="title_rss_paranormalradionetwork">Paranormal Radio Network</string>
+    
+    <!-- BLOG URLs and Titles-->
+    <string name="url_blog_objectreport">http://theobjectreport.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_objectreport">Agents D &amp; K (The Object Report)</string>
+    <string name="url_blog_kevinrandle">http://kevinrandle.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_kevinrandle">Kevin Randle - A Different Perspective</string>
+    <string name="url_blog_lightsinthesky">http://lightsinthetexassky.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_lightsinthesky">Lights in the Sky</string>
+    <string name="url_blog_theozfiles">http://theozfiles.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_theozfiles">The OZ Files</string>
+    <string name="url_blog_vike">http://canadaufo.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_vike">The Vike Factor</string>
+    <string name="url_blog_ufology">http://uforum.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_ufology">Ufology Research</string>    
+    <string name="url_blog_scientificresearch">http://ufos-scientificresearch.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_scientificresearch">UFOs - Scientific Research</string>
+    <string name="url_blog_orangeorb">http://orangeorb.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_orangeorb">The Orange Orb</string>
+    <string name="url_blog_inexplicata">http://inexplicata.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_inexplicata">Inexplicata - Hispanic Ufology</string>
+    <string name="url_blog_ufocon">http://ufocon.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_ufocon">The UFO Iconoclast(s)</string>    
+    <string name="url_blog_badufos">http://badufos.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_badufos">Bad UFOs: Skepticism, UFOs&#8230;</string>    
+    <string name="url_blog_grenz">http://grenzwissenschaft-aktuell.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_grenz">grenz|wissenschaft-aktuell</string>    
+    <string name="url_blog_hiddenexperience">http://hiddenexperience.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_hiddenexperience">Hidden Experience</string>    
+    <string name="url_blog_emvs">http://emvsinfo.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_emvs">EMVs - Designers of Solar Systems</string>    
+    <string name="url_blog_anything">http://anythingufo.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_anything">ANYTHING UFO</string>    
+    <string name="url_blog_mundo">http://www.mundo-ufo.com/feeds/posts/default</string>
+    <string name="title_blog_mundo">MUNDO UFO</string>    
+    <string name="url_blog_todaysufovideos">http://todaysufovideos.blogspot.com/feeds/posts/default</string>
+    <string name="title_blog_todaysufovideos">Today\'s UFO Videos</string>    
+    <string name="url_blog_educatinghumanity"> http://feeds.feedburner.com/EducatingHumanity?format=xml</string>
+    <string name="title_blog_educatinghumanity">Educating Humanity</string>
+    
+    <!-- Image content descriptions  -->
+    <string name="content_youtube_thumbnail_image">YouTube video thumbnail image.</string>
+    <string name="content_rssfeed_thumbnail_image">RSS feed thumbnail image.</string>
+    <string name="content_youtube_play_video">Play video</string>
+    <string name="content_prev">Previous</string>
+    <string name="content_next">Next</string>
+    
+    <!-- US State Names -->
+	<string name="state_nm_AL">Alabama</string>
+	<string name="state_nm_AK">Alaska</string>
+	<string name="state_nm_AS">American Samoa</string>
+	<string name="state_nm_AZ_Phoenix">Arizona - Phoenix</string>
+	<string name="state_nm_AZ">Arizona&#8230;</string>
+	<string name="state_nm_AR">Arkansas</string>
+	<string name="state_nm_CA_LosAngeles">California - Los Angeles</string>
+	<string name="state_nm_CA_SanDiego">California - San Diego</string>
+	<string name="state_nm_CA_North">California - Northern</string>
+	<string name="state_nm_CA_South">California - Southern</string>
+	<string name="state_nm_CO">Colorado</string>
+	<string name="state_nm_CT">Connecticut</string>
+	<string name="state_nm_DE">Delaware</string>
+	<string name="state_nm_DC">District of Columbia</string>
+	<string name="state_nm_FL">Florida</string>
+	<string name="state_nm_GA">Georgia</string>
+	<string name="state_nm_GU">Guam</string>
+	<string name="state_nm_HI">Hawaii</string>
+	<string name="state_nm_ID">Idaho</string>
+	<string name="state_nm_IL">Illinois</string>
+	<string name="state_nm_IN">Indiana</string>
+	<string name="state_nm_IA">Iowa</string>
+	<string name="state_nm_KS">Kansas</string>
+	<string name="state_nm_KY">Kentucky</string>
+	<string name="state_nm_LA">Louisiana</string>
+	<string name="state_nm_ME">Maine</string>
+	<string name="state_nm_MH">Marshall Islands</string>
+	<string name="state_nm_MD">Maryland</string>
+	<string name="state_nm_MA">Massachusetts</string>
+	<string name="state_nm_MI">Michigan</string>
+	<string name="state_nm_FM">Micronesia</string>
+	<string name="state_nm_MN">Minnesota</string>
+	<string name="state_nm_MS">Mississippi</string>
+	<string name="state_nm_MO">Missouri</string>
+	<string name="state_nm_MT">Montana</string>
+	<string name="state_nm_NE">Nebraska</string>
+	<string name="state_nm_NV">Nevada</string>
+	<string name="state_nm_NH">New Hampshire</string>
+	<string name="state_nm_NJ">New Jersey</string>
+	<string name="state_nm_NM">New Mexico</string>
+	<string name="state_nm_NY">New York</string>
+	<string name="state_nm_NC">North Carolina</string>
+	<string name="state_nm_ND">North Dakota</string>
+	<string name="state_nm_MP">N. Mariana Islands</string>
+	<string name="state_nm_OH">Ohio</string>
+	<string name="state_nm_OK">Oklahoma</string>
+	<string name="state_nm_OR">Oregon</string>
+	<string name="state_nm_PW">Palau</string>
+	<string name="state_nm_PA">Pennsylvania</string>
+	<string name="state_nm_PR">Puerto Rico</string>
+	<string name="state_nm_RI">Rhode Island</string>
+	<string name="state_nm_SC">South Carolina</string>
+	<string name="state_nm_SD">South Dakota</string>
+	<string name="state_nm_TN">Tennessee</string>
+	<string name="state_nm_TX_Houston">Texas - Houston</string>
+	<string name="state_nm_TX_SanAntonio">Texas - San Antonio</string>
+	<string name="state_nm_TX_Dallas">Texas - Dallas/Fort Worth</string>
+	<string name="state_nm_TX">Texas&#8230;</string>
+	<string name="state_nm_UT">Utah</string>
+	<string name="state_nm_VT">Vermont</string>
+	<string name="state_nm_VI">Virgin Islands</string>
+	<string name="state_nm_VA">Virginia</string>
+	<string name="state_nm_WA">Washington</string>
+	<string name="state_nm_WV">West Virginia</string>
+	<string name="state_nm_WI">Wisconsin</string>
+	<string name="state_nm_WY">Wyoming</string>
+
+	<!-- US State Names Search -->
+	<string name="state_srch_AL">Alabama</string>
+	<string name="state_srch_AK">Alaska</string>
+	<string name="state_srch_AS">American&#43;Samoa</string>
+	<string name="state_srch_AZ_Phoenix">Arizona&#43;Phoenix</string>
+	<string name="state_srch_AZ">Arizona&#43;Tucson&#124;Mesa</string>
+	<string name="state_srch_AR">Arkansas</string>
+	<string name="state_srch_CA_LosAngeles">California&#43;Los&#43;Angeles</string>
+	<string name="state_srch_CA_SanDiego">California&#43;San&#43;Diego</string>
+	<string name="state_srch_CA_North">California&#43;SanJose&#124;SanFrancisco&#124;Sacramento&#124;Oakland</string>
+	<string name="state_srch_CA_South">California&#43;Fresno&#124;LongBeach&#124;Bakersfield&#124;Anaheim&#124;SantaAna&#124;Riverside</string>
+	<string name="state_srch_CO">Colorado&#43;Denver&#124;ColoradoSprings&#124;Aurora</string>
+	<string name="state_srch_CT">Connecticut</string>
+	<string name="state_srch_DE">Delaware</string>
+	<string name="state_srch_DC">District&#43;of&#43;Columbia</string>
+	<string name="state_srch_FL">Florida&#43;Jacksonville&#124;Miami&#124;Tampa</string>
+	<string name="state_srch_GA">Georgia</string>
+	<string name="state_srch_GU">Guam</string>
+	<string name="state_srch_HI">Hawaii</string>
+	<string name="state_srch_ID">Idaho</string>
+	<string name="state_srch_IL">Illinois</string>
+	<string name="state_srch_IN">Indiana</string>
+	<string name="state_srch_IA">Iowa</string>
+	<string name="state_srch_KS">Kansas</string>
+	<string name="state_srch_KY">Kentucky</string>
+	<string name="state_srch_LA">Louisiana</string>
+	<string name="state_srch_ME">Maine</string>
+	<string name="state_srch_MH">Marshall&#43;Islands</string>
+	<string name="state_srch_MD">Maryland</string>
+	<string name="state_srch_MA">Massachusetts</string>
+	<string name="state_srch_MI">Michigan</string>
+	<string name="state_srch_FM">Micronesia</string>
+	<string name="state_srch_MN">Minnesota</string>
+	<string name="state_srch_MS">Mississippi</string>
+	<string name="state_srch_MO">Missouri</string>
+	<string name="state_srch_MT">Montana</string>
+	<string name="state_srch_NE">Nebraska</string>
+	<string name="state_srch_NV">Nevada</string>
+	<string name="state_srch_NH">New&#43;Hampshire</string>
+	<string name="state_srch_NJ">New&#43;Jersey</string>
+	<string name="state_srch_NM">New&#43;Mexico</string>
+	<string name="state_srch_NY">New&#43;York</string>
+	<string name="state_srch_NC">North&#43;Carolina</string>
+	<string name="state_srch_ND">North&#43;Dakota</string>
+	<string name="state_srch_MP">North&#43;Mariana&#43;Islands</string>
+	<string name="state_srch_OH">Ohio</string>
+	<string name="state_srch_OK">Oklahoma</string>
+	<string name="state_srch_OR">Oregon</string>
+	<string name="state_srch_PW">Palau</string>
+	<string name="state_srch_PA">Pennsylvania</string>
+	<string name="state_srch_PR">Puerto&#43;Rico</string>
+	<string name="state_srch_RI">Rhode&#43;Island</string>
+	<string name="state_srch_SC">South&#43;Carolina</string>
+	<string name="state_srch_SD">South&#43;Dakota</string>
+	<string name="state_srch_TN">Tennessee</string>
+	<string name="state_srch_TX_Houston">Texas&#43;Houston</string>
+	<string name="state_srch_TX_SanAntonio">Texas&#43;SanAntonio</string>
+	<string name="state_srch_TX_Dallas">Texas&#43;Dallas&#124;FortWorth</string>
+	<string name="state_srch_TX">Texas&#43;Austin&#124;ElPaso&#124;Arlington</string>
+	<string name="state_srch_UT">Utah</string>
+	<string name="state_srch_VT">Vermont</string>
+	<string name="state_srch_VI">Virgin&#43;Islands</string>
+	<string name="state_srch_VA">Virginia</string>
+	<string name="state_srch_WA">Washington</string>
+	<string name="state_srch_WV">West&#43;Virginia</string>
+	<string name="state_srch_WI">Wisconsin</string>
+	<string name="state_srch_WY">Wyoming</string>
+	
+	<!-- CANADA State Names -->
+	<string name="state_nm_AL_CAN">Alberta</string>
+	<string name="state_nm_BC_CAN">British Columbia</string>
+	<string name="state_nm_MA_CAN">Manitoba</string>
+	<string name="state_nm_NF_CAN">Newfoundland</string>
+	<string name="state_nm_NB_CAN">New Brunswick</string>
+	<string name="state_nm_NT_CAN">Northwest Territory</string>
+	<string name="state_nm_NS_CAN">Nova Scotia</string>
+	<string name="state_nm_ON_CAN">Ontario</string>
+	<string name="state_nm_PE_CAN">Prince Edward Island</string>
+	<string name="state_nm_QU_CAN">Quebec</string>
+	<string name="state_nm_SK_CAN">Saskatchewan</string>
+	<string name="state_nm_YT_CAN">Yukon Territory</string>
+		
+	<!-- CANADA State Names Search -->
+	<string name="state_srch_AL_CAN">Alberta&#43;Canada&#43;Calgary&#124;Edmonton</string>
+	<string name="state_srch_BC_CAN">British&#43;Columbia&#43;Canada&#43;Vancouver&#124;Surrey</string>
+	<string name="state_srch_MA_CAN">Manitoba&#43;Canada&#43;Winnipeg</string>
+	<string name="state_srch_NF_CAN">Newfoundland&#43;Canada</string>
+	<string name="state_srch_NB_CAN">New&#43;Brunswick&#43;Canada</string>
+	<string name="state_srch_NT_CAN">Northwest&#43;Territory&#43;Canada</string>
+	<string name="state_srch_NS_CAN">Nova&#43;Scotia&#43;Canada</string>
+	<string name="state_srch_ON_CAN">Ontario&#43;Canada&#43;Toronto&#124;Ottawa&#124;Mississauga&#124;Brampton&#124;Hamilton</string>
+	<string name="state_srch_PE_CAN">Prince&#43;Edward&#43;Island&#43;Canada</string>
+	<string name="state_srch_QU_CAN">Quebec&#43;Canada&#43;Montreal&#124;Quebec&#43;City</string>
+	<string name="state_srch_SK_CAN">Saskatchewan&#43;Canada</string>
+	<string name="state_srch_YT_CAN">Yukon&#43;Territory&#43;Canada</string>
+	
+	<!-- Country Names -->
+	<string name="cntry_nm_Argentina">Argentina</string>
+	<string name="cntry_nm_Austria">Austria</string>
+	<string name="cntry_nm_Bahamas">Bahamas</string>
+	<string name="cntry_nm_Bahrain">Bahrain</string>
+	<string name="cntry_nm_Belgium">Belgium</string>
+	<string name="cntry_nm_Brazil">Brazil</string>
+	<string name="cntry_nm_Brunei">Brunei</string>
+	<string name="cntry_nm_Bulgaria">Bulgaria</string>
+	<string name="cntry_nm_China">China</string>
+	<string name="cntry_nm_Colombia">Colombia</string>
+	<string name="cntry_nm_CostaRica">Costa Rica</string>
+	<string name="cntry_nm_Cyprus">Cyprus</string>
+	<string name="cntry_nm_CzechRepublic">Czech Republic</string>
+	<string name="cntry_nm_Denmark">Denmark</string>
+	<string name="cntry_nm_Finland">Finland</string>
+	<string name="cntry_nm_Germany">Germany</string>
+	<string name="cntry_nm_Greece">Greece</string>
+	<string name="cntry_nm_HongKong">Hong Kong</string>
+	<string name="cntry_nm_Hungary">Hungary</string>
+	<string name="cntry_nm_Iceland">Iceland</string>
+	<string name="cntry_nm_India">India</string>
+	<string name="cntry_nm_Indonesia">Indonesia</string>
+	<string name="cntry_nm_Ireland">Ireland</string>
+	<string name="cntry_nm_Israel">Israel</string>
+	<string name="cntry_nm_Italy">Italy</string>
+	<string name="cntry_nm_Japan">Japan</string>
+	<string name="cntry_nm_Kuwait">Kuwait</string>
+	<string name="cntry_nm_Luxembourg">Luxembourg</string>
+	<string name="cntry_nm_Malaysia">Malaysia</string>
+	<string name="cntry_nm_Malta">Malta</string>
+	<string name="cntry_nm_Netherlands">Netherlands</string>
+	<string name="cntry_nm_NewZealand">New Zealand</string>
+	<string name="cntry_nm_Norway">Norway</string>
+	<string name="cntry_nm_Oman">Oman</string>
+	<string name="cntry_nm_Peru">Peru</string>
+	<string name="cntry_nm_Philippines">Philippines</string>
+	<string name="cntry_nm_Poland">Poland</string>
+	<string name="cntry_nm_Portugal">Portugal</string>
+	<string name="cntry_nm_PuertoRico">Puerto Rico</string>
+	<string name="cntry_nm_Quatar">Quatar</string>
+	<string name="cntry_nm_Romania">Romania</string>
+	<string name="cntry_nm_Russia">Russia</string>
+	<string name="cntry_nm_SaudiArabia">Saudi Arabia</string>
+	<string name="cntry_nm_Singapore">Singapore</string>
+	<string name="cntry_nm_Slovakia">Slovakia</string>
+	<string name="cntry_nm_Slovenia">Slovenia</string>
+	<string name="cntry_nm_SouthAfrica">South Africa</string>
+	<string name="cntry_nm_SouthKorea">South Korea</string>
+	<string name="cntry_nm_Spain">Spain</string>
+	<string name="cntry_nm_Sweden">Sweden</string>
+	<string name="cntry_nm_Switzerland">Switzerland</string>
+	<string name="cntry_nm_Taiwan">Taiwan</string>
+	<string name="cntry_nm_TrinidadTobago">Trinidad and Tobago</string>
+	<string name="cntry_nm_Turkey">Turkey</string>
+	<string name="cntry_nm_UAE">United Arab Emirates</string>
+	<string name="cntry_nm_Venezuela">Venezuela</string>
+
+	<!-- Country Search Names -->
+	<string name="cntry_srch_Argentina">Argentina&#43;BuenosAires</string>
+	<string name="cntry_srch_Austria">Austria</string>
+	<string name="cntry_srch_Bahamas">Bahamas</string>
+	<string name="cntry_srch_Bahrain">Bahrain</string>
+	<string name="cntry_srch_Belgium">Belgium</string>
+	<string name="cntry_srch_Brazil">Brazil</string>
+	<string name="cntry_srch_Brunei">Brunei</string>
+	<string name="cntry_srch_Bulgaria">Bulgaria</string>
+	<string name="cntry_srch_China">China</string>
+	<string name="cntry_srch_Colombia">Colombia&#124;Medellin&#124;Bogota</string>
+	<string name="cntry_srch_CostaRica">Costa&#43;Rica</string>
+	<string name="cntry_srch_Cyprus">Cyprus</string>
+	<string name="cntry_srch_CzechRepublic">Czech&#43;Republic</string>
+	<string name="cntry_srch_Denmark">Denmark</string>
+	<string name="cntry_srch_Finland">Finland</string>
+	<string name="cntry_srch_Germany">Germany</string>
+	<string name="cntry_srch_Greece">Greece</string>
+	<string name="cntry_srch_HongKong">Hong&#43;Kong</string>
+	<string name="cntry_srch_Hungary">Hungary</string>
+	<string name="cntry_srch_Iceland">Iceland</string>
+	<string name="cntry_srch_India">India</string>
+	<string name="cntry_srch_Indonesia">Indonesia</string>
+	<string name="cntry_srch_Ireland">Ireland</string>
+	<string name="cntry_srch_Israel">Israel</string>
+	<string name="cntry_srch_Italy">Italy</string>
+	<string name="cntry_srch_Japan">Japan</string>
+	<string name="cntry_srch_Kuwait">Kuwait</string>
+	<string name="cntry_srch_Luxembourg">Luxembourg</string>
+	<string name="cntry_srch_Malaysia">Malaysia</string>
+	<string name="cntry_srch_Malta">Malta</string>
+	<string name="cntry_srch_Netherlands">Netherlands</string>
+	<string name="cntry_srch_NewZealand">New&#43;Zealand&#124;Auckland</string>
+	<string name="cntry_srch_Norway">Norway</string>
+	<string name="cntry_srch_Oman">Oman</string>
+	<string name="cntry_srch_Peru">Peru</string>
+	<string name="cntry_srch_Philippines">Philippines</string>
+	<string name="cntry_srch_Poland">Poland</string>
+	<string name="cntry_srch_Portugal">Portugal</string>
+	<string name="cntry_srch_PuertoRico">Puerto&#43;Rico</string>
+	<string name="cntry_srch_Quatar">Quatar</string>
+	<string name="cntry_srch_Romania">Romania</string>
+	<string name="cntry_srch_Russia">Russia</string>
+	<string name="cntry_srch_SaudiArabia">Saudi&#43;Arabia</string>
+	<string name="cntry_srch_Singapore">Singapore</string>
+	<string name="cntry_srch_Slovakia">Slovakia</string>
+	<string name="cntry_srch_Slovenia">Slovenia</string>
+	<string name="cntry_srch_SouthAfrica">SouthAfrica&#43;Johannesburg&#124;Pretoria&#124;CapeTown</string>
+	<string name="cntry_srch_SouthKorea">South&#43;Korea</string>
+	<string name="cntry_srch_Spain">Spain</string>
+	<string name="cntry_srch_Sweden">Sweden</string>
+	<string name="cntry_srch_Switzerland">Switzerland</string>
+	<string name="cntry_srch_Taiwan">Taiwan</string>
+	<string name="cntry_srch_TrinidadTobago">Trinidad&#124;Tobago&#124;PortofSpain</string>
+	<string name="cntry_srch_Turkey">Turkey</string>
+	<string name="cntry_srch_UAE">United&#43;Arab&#43;Emirates</string>	
+	<string name="cntry_srch_Venezuela">Venezuela&#124;Caracas</string>
+	
+	<!-- United Kingdom Names -->
+	<string name="uk_nm_scotland">Scotland</string>
+	<string name="uk_nm_wales">Wales</string>
+	<string name="uk_nm_northern_ireland">Northern Ireland</string>
+	<string name="uk_nm_london">England - London</string>
+	<string name="uk_nm_england">England&#8230;</string>
+	<!-- United Kingdom Search Names -->	
+	<string name="uk_srch_scotland">Scotland&#43;Glasgow&#124;Edinburgh</string>
+	<string name="uk_srch_wales">Wales</string>
+	<string name="uk_srch_northern_ireland">Northern&#43;Ireland</string>
+	<string name="uk_srch_london">London&#43;England</string>
+	<string name="uk_srch_england">England&#43;Birmingham&#124;Leeds&#124;Sheffield&#124;Bradford&#124;Manchester&#124;Liverpool</string>
+
+	<!-- Australia Names -->
+	<string name="australia_nm_sydney">Sydney</string>
+	<string name="australia_nm_newsouthwales">New South Wales</string>	
+	<string name="australia_nm_melbourne">Melbourne</string>
+	<string name="australia_nm_brisbane">Brisbane</string>
+	<string name="australia_nm_perth">Perth</string>
+	<string name="australia_nm_adelaide">Adelaide</string>
+	<string name="australia_nm_other">more&#8230;</string>
+		<!-- Australia Search Names -->	
+	<string name="australia_srch_sydney">Australia&#43;Sydney</string>
+	<string name="australia_srch_newsouthwales">Australia&#43;Newcastle&#124;NewSouthWales&#124;Tweed&#124;Queanbeyan</string>	
+	<string name="australia_srch_melbourne">Australia&#43;Melbourne&#124;Victoria</string>
+	<string name="australia_srch_brisbane">Australia&#43;Brisbane&#124;Queensland&#124;GoldCoast</string>
+	<string name="australia_srch_perth">Australia&#43;Perth&#124;WesternAustralia</string>
+	<string name="australia_srch_adelaide">Australia&#43;Adelaide&#124;SouthAustralia</string>
+	<string name="australia_srch_other">Australia&#43;Canberra&#124;Tasmania&#124;Darwin</string>
+			
+	<!-- Mexico Names -->
+	<string name="mx_nm_northwest">Northwest</string>
+	<string name="mx_nm_northeast">Northeast</string>
+	<string name="mx_nm_centernorth">Center-North</string>
+	<string name="mx_nm_mexicocity">Mexico City</string>
+	<string name="mx_nm_centersouth">Center-South</string>
+	<string name="mx_nm_west">West</string>
+	<string name="mx_nm_east">East</string>
+	<string name="mx_nm_south">South</string>
+	<!-- Mexico Search Names -->	
+	<string name="mx_srch_northwest">Mexico&#43;BajaCalifornia&#124;Tijuana&#124;Mexicali&#124;Ensenada&#124;Sur&#124;Chihuahua&#124;Juárez&#124;Durango&#124;Sinaloa&#124;Culiacán&#124;Mazatlán&#124;Sonora&#124;Hermosillo</string>
+	<string name="mx_srch_northeast">Mexico&#43;Coahuila&#124;Saltillo&#124;Torreón&#124;Nuevo León&#124;Monterrey&#124;Guadalupe&#124;Apodaca&#124;Tamaulipas&#124;Reynosa</string>
+	<string name="mx_srch_centernorth">Mexico&#43;Aguascalientes&#124;Guanajuato&#124;Leon&#124;Querétaro&#124;Zacatecas&#124;San&#43;Luis&#43;Potosí&quot;</string>
+	<string name="mx_srch_mexicocity">Mexico&#43;City</string>
+	<string name="mx_srch_centersouth">Mexico&#43;Ecatepec&#124;Nezahualcóyotl&#124;Naucalpan&#124;Toluca&#124;TlalnepantladeBaz&#124;Chimalhuacán&#124;Tultitlán&#124;Morelos&#124;DistritoFederal</string>
+	<string name="mx_srch_west">Mexico&#43;Colima&#124;Jalisco&#124;Guadalajara&#124;Zapopan&#124;Tlaquepaque&#124;PuertoVallarta&#124;Michoacán&#124;Morelia&#124;Nayarit</string>
+	<string name="mx_srch_east">Mexico&#43;Hidalgo&#124;Puebla&#124;Tlaxcala&#124;Veracruz</string>
+	<string name="mx_srch_south">Mexico&#43;Campeche&#124;Cancun&#124;Tabasco&#124;Villahermosa&#124;Yucatán&#124;Mérida&#124;Chiapas&#124;Acapulco&#124;Guerrero&#124;Oaxaca&#124;Tuxtla&#124;Quintana</string>
+
+	<!-- France Names -->
+	<string name="fr_nm_paris">Paris</string>
+	<string name="fr_nm_lyon">Lyon</string>
+	<string name="fr_nm_marseille">Marseille</string>
+	<string name="fr_nm_toulouse">Toulouse</string>
+	<string name="fr_nm_nice">Nice</string>
+	<string name="fr_nm_bordeaux">Bordeaux</string>
+	<string name="fr_nm_alsace">Alsace</string>
+	<string name="fr_nm_brittany">Brittany</string>
+	<string name="fr_nm_normandy">Normandy</string>
+	<string name="fr_nm_nantes">Nantes</string>
+	
+	<!-- France Search Names -->	
+	<string name="fr_srch_paris">France&#43;Paris</string>
+	<string name="fr_srch_lyon">France&#43;Lyon&#124;Grenoble</string>
+	<string name="fr_srch_marseille">France&#43;Marseille&#124;Aix-en-Provence&#124;Toulon&#124;Provence-Alpes-Côte</string>
+	<string name="fr_srch_toulouse">France&#43;Toulouse</string>
+	<string name="fr_srch_nice">France&#43;Nice</string>
+	<string name="fr_srch_bordeaux">France&#43;Bordeaux&#124;Aquitaine</string>
+	<string name="fr_srch_alsace">France&#43;Alsace&#124;Strasbourg</string>
+	<string name="fr_srch_brittany">France&#43;Brittany&#124;Rennes</string>
+	<string name="fr_srch_normandy">France&#43;Normandy&#124;Rouen</string>
+	<string name="fr_srch_nantes">France&#43;Nantes&#124;Angers&#124;PaysdelaLoire</string>
+								
+	<!-- state names for reports -->
+	<string name="state_nm_reports_AL">Alabama</string>
+	<string name="state_nm_reports_AK">Alaska</string>
+	<string name="state_nm_reports_AL_CAN">Alberta</string>
+	<string name="state_nm_reports_AZ">Arizona</string>
+	<string name="state_nm_reports_AR">Arkansas</string>
+	<string name="state_nm_reports_BC_CAN">British Columbia</string>
+	<string name="state_nm_reports_CA">California</string>
+	<string name="state_nm_reports_CO">Colorado</string>
+	<string name="state_nm_reports_CT">Connecticut</string>
+	<string name="state_nm_reports_DE">Delaware</string>
+	<string name="state_nm_reports_DC">District of Columbia</string>
+	<string name="state_nm_reports_FL">Florida</string>
+	<string name="state_nm_reports_GA">Georgia</string>
+	<string name="state_nm_reports_HI">Hawaii</string>
+	<string name="state_nm_reports_ID">Idaho</string>
+	<string name="state_nm_reports_IL">Illinois</string>
+	<string name="state_nm_reports_IN">Indiana</string>
+	<string name="state_nm_reports_IA">Iowa</string>
+	<string name="state_nm_reports_KS">Kansas</string>
+	<string name="state_nm_reports_KY">Kentucky</string>
+	<string name="state_nm_reports_LA">Louisiana</string>
+	<string name="state_nm_reports_ME">Maine</string>
+	<string name="state_nm_reports_MA_CAN">Manitoba</string>
+	<string name="state_nm_reports_MD">Maryland</string>
+	<string name="state_nm_reports_MA">Massachusetts</string>
+	<string name="state_nm_reports_MI">Michigan</string>
+	<string name="state_nm_reports_MN">Minnesota</string>
+	<string name="state_nm_reports_MS">Mississippi</string>
+	<string name="state_nm_reports_MO">Missouri</string>
+	<string name="state_nm_reports_MT">Montana</string>
+	<string name="state_nm_reports_NE">Nebraska</string>
+	<string name="state_nm_reports_NV">Nevada</string>
+	<string name="state_nm_reports_NF_CAN">Newfoundland</string>
+	<string name="state_nm_reports_NB_CAN">New Brunswick</string>
+	<string name="state_nm_reports_NH">New Hampshire</string>
+	<string name="state_nm_reports_NJ">New Jersey</string>
+	<string name="state_nm_reports_NM">New Mexico</string>
+	<string name="state_nm_reports_NY">New York</string>
+	<string name="state_nm_reports_NT_CAN">Northwest Territory</string>
+	<string name="state_nm_reports_NC">North Carolina</string>
+	<string name="state_nm_reports_ND">North Dakota</string>
+	<string name="state_nm_reports_NS_CAN">Nova Scotia</string>
+	<string name="state_nm_reports_OH">Ohio</string>
+	<string name="state_nm_reports_OK">Oklahoma</string>
+	<string name="state_nm_reports_ON_CAN">Ontario</string>
+	<string name="state_nm_reports_OR">Oregon</string>
+	<string name="state_nm_reports_PA">Pennsylvania</string>
+	<string name="state_nm_reports_PE_CAN">Prince Edward Island</string>
+	<string name="state_nm_reports_QC_CAN">Quebec</string>
+	<string name="state_nm_reports_RI">Rhode Island</string>
+	<string name="state_nm_reports_SK_CAN">Saskatchewan</string>
+	<string name="state_nm_reports_SC">South Carolina</string>
+	<string name="state_nm_reports_SD">South Dakota</string>
+	<string name="state_nm_reports_TN">Tennessee</string>
+	<string name="state_nm_reports_TX">Texas</string>
+	<string name="state_nm_reports_UT">Utah</string>
+	<string name="state_nm_reports_VT">Vermont</string>
+	<string name="state_nm_reports_VA">Virginia</string>
+	<string name="state_nm_reports_VI">Virgin Islands</string>
+	<string name="state_nm_reports_WA">Washington</string>
+	<string name="state_nm_reports_WV">West Virginia</string>
+	<string name="state_nm_reports_WI">Wisconsin</string>
+	<string name="state_nm_reports_WY">Wyoming</string>
+	<string name="state_nm_reports_YT_CAN">Yukon Territory</string>
+
+		<!-- state search names for Reports -->
+	<string name="state_reports_page_AL">ndxlAL</string>
+	<string name="state_reports_page_AK">ndxlAK</string>
+	<string name="state_reports_page_AL_CAN">ndxlAB</string>
+	<string name="state_reports_page_AZ">ndxlAZ</string>
+	<string name="state_reports_page_AR">ndxlAR</string>
+	<string name="state_reports_page_BC_CAN">ndxlBC</string>
+	<string name="state_reports_page_CA">ndxlCA</string>
+	<string name="state_reports_page_CO">ndxlCO</string>
+	<string name="state_reports_page_CT">ndxlCT</string>
+	<string name="state_reports_page_DE">ndxlDE</string>
+	<string name="state_reports_page_DC">ndxlDC</string>
+	<string name="state_reports_page_FL">ndxlFL</string>
+	<string name="state_reports_page_GA">ndxlGA</string>
+	<string name="state_reports_page_HI">ndxlHI</string>
+	<string name="state_reports_page_ID">ndxlID</string>
+	<string name="state_reports_page_IL">ndxlIL</string>
+	<string name="state_reports_page_IN">ndxlIN</string>
+	<string name="state_reports_page_IA">ndxlIA</string>
+	<string name="state_reports_page_KS">ndxlKS</string>
+	<string name="state_reports_page_KY">ndxlKY</string>
+	<string name="state_reports_page_LA">ndxlLA</string>
+	<string name="state_reports_page_ME">ndxlME</string>
+	<string name="state_reports_page_MA_CAN">ndxlMB</string>
+	<string name="state_reports_page_MD">ndxlMD</string>
+	<string name="state_reports_page_MA">ndxlMA</string>
+	<string name="state_reports_page_MI">ndxlMI</string>
+	<string name="state_reports_page_MN">ndxlMN</string>
+	<string name="state_reports_page_MS">ndxlMS</string>
+	<string name="state_reports_page_MO">ndxlMO</string>
+	<string name="state_reports_page_MT">ndxlMT</string>
+	<string name="state_reports_page_NE">ndxlNE</string>
+	<string name="state_reports_page_NV">ndxlNV</string>
+	<string name="state_reports_page_NF_CAN">ndxlNF</string>
+	<string name="state_reports_page_NB_CAN">ndxlNB</string>
+	<string name="state_reports_page_NH">ndxlNH</string>
+	<string name="state_reports_page_NJ">ndxlNJ</string>
+	<string name="state_reports_page_NM">ndxlNM</string>
+	<string name="state_reports_page_NY">ndxlNY</string>
+	<string name="state_reports_page_NT_CAN">ndxlNT</string>
+	<string name="state_reports_page_NC">ndxlNC</string>
+	<string name="state_reports_page_ND">ndxlND</string>
+	<string name="state_reports_page_NS_CAN">ndxlNS</string>
+	<string name="state_reports_page_OH">ndxlOH</string>
+	<string name="state_reports_page_OK">ndxlOK</string>
+	<string name="state_reports_page_ON_CAN">ndxlON</string>
+	<string name="state_reports_page_OR">ndxlOR</string>
+	<string name="state_reports_page_PA">ndxlPA</string>
+	<string name="state_reports_page_PE_CAN">ndxlPE</string>
+	<string name="state_reports_page_QC_CAN">ndxlQC</string>
+	<string name="state_reports_page_RI">ndxlRI</string>
+	<string name="state_reports_page_SK_CAN">ndxlSA</string>
+	<string name="state_reports_page_SC">ndxlSC</string>
+	<string name="state_reports_page_SD">ndxlSD</string>
+	<string name="state_reports_page_TN">ndxlTN</string>
+	<string name="state_reports_page_TX">ndxlTX</string>
+	<string name="state_reports_page_UT">ndxlUT</string>
+	<string name="state_reports_page_VT">ndxlVT</string>
+	<string name="state_reports_page_VA">ndxlVA</string>
+	<string name="state_reports_page_VI">ndxlVI</string>
+	<string name="state_reports_page_WA">ndxlWA</string>
+	<string name="state_reports_page_WV">ndxlWV</string>
+	<string name="state_reports_page_WI">ndxlWI</string>
+	<string name="state_reports_page_WY">ndxlWY</string>
+	<string name="state_reports_page_YT_CAN">ndxlYT</string>
+
+	<!-- you tube action choices -->
+	<string name="youtube_action_favorite">Favorite</string>
+	<string name="youtube_action_like">Like</string>
+	<string name="youtube_action_dislike">Dislike</string>
+	<string name="youtube_action_watch_later">Watch Later</string>
+	<string name="youtube_action_add_to_playlist">Add To Playlist</string>
+	<string name="youtube_action_subscribe">Subscribe</string>
+	<string name="youtube_action_create_playlist">Create New Playlist</string>
+	<string name="youtube_action_change_account">Account</string>
+	
+	<!-- Freebase Topic Areas -->
+	<string name="freebase_topic_area_incidents">Incidents</string>
+	<string name="freebase_topic_area_incidents_query">ufo incident</string>
+	<string name="freebase_topic_area_conspiracies">Conspiracies</string>
+	<string name="freebase_topic_area_conspiracies_query">ufo conspiracy</string>
+	<string name="freebase_topic_area_extraterrestrials">Extraterrestrials</string>
+	<string name="freebase_topic_area_extraterrestrials_query">extraterrestrials</string>
+	<string name="freebase_topic_area_technology">Technology</string>
+	<string name="freebase_topic_area_technology_query">alien technology</string>
+	<string name="freebase_topic_area_abductions">Abductions</string>
+	<string name="freebase_topic_area_abductions_query">alien abduction</string>
+	<string name="freebase_topic_area_intelligence">Intelligence</string>
+	<string name="freebase_topic_area_intelligence_query">alien intelligence</string>
+	<string name="freebase_topic_area_sightings">Sightings</string>
+	<string name="freebase_topic_area_sightings_query">ufo sightings</string>
+						
+																			
+</resources>

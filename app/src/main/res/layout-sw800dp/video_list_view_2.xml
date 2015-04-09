@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+    <LinearLayout 
+        android:id="@+id/footerBar"
+		android:layout_width="fill_parent"
+		android:layout_height="80dp"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:background="@android:color/black"	    
+        android:layout_alignParentBottom="true" >
+						
+		<ImageButton
+		    android:id="@+id/next"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:scaleType="center"
+	    	android:adjustViewBounds="false"
+	   		android:minHeight="40dp"
+	    	android:minWidth="50dp"
+	    	android:background="@null"
+		    android:src="@drawable/arrow_down_float"
+		    android:contentDescription="@string/content_next" />
+
+		<TextView
+	        android:id="@+id/counts"
+	        android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="@android:color/primary_text_dark" />
+		
+		<ImageButton
+		    android:id="@+id/prev"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:scaleType="center"
+	    	android:adjustViewBounds="false"
+	   		android:minHeight="40dp"
+	    	android:minWidth="50dp"
+	    	android:background="@null"
+		    android:src="@drawable/arrow_up_float"
+		    android:contentDescription="@string/content_prev" />
+								
+	</LinearLayout>
+    
+	<ProgressBar
+	    android:id="@+id/progressBar"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+	
+	<com.duke.android.ufowatch.ui.widget.VideoListView2
+		android:id="@+id/videosListView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:divider="@color/divider_color"
+    	android:dividerHeight="2dp"
+		android:layout_below="@id/progressBar"
+		android:layout_above="@id/footerBar" />
+		
+</RelativeLayout>
+    

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duke.android.ufowatch"
+    android:versionCode="10"
+    android:versionName="2.5.4">
+
+    <uses-sdk android:minSdkVersion="14"
+        	  android:targetSdkVersion="22"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <supports-screens android:anyDensity="true" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/title_app_name"
+        android:theme="@style/Theme.UfoTheme"
+        android:hardwareAccelerated="true"
+        android:allowBackup="true">
+        
+        <activity android:name=".UfoWatchMain"
+            	  android:launchMode="singleTop"
+            	  android:clearTaskOnLaunch="true"
+                  android:label="@string/title_app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                   	   android:resource="@xml/searchable"/>
+            </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_app_name"
+            android:name=".ui.phone.VideoList2">
+        </activity>        
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_app_name"
+            android:name=".ui.phone.VideoInfo">
+        </activity>        
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_app_name"
+            android:name=".ui.UfoWatchWebView">
+        </activity>
+        <activity
+            android:label="@string/title_app_name"
+            android:name=".ui.YouTubeCaller">
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_app_name"
+            android:name=".ui.phone.RssFeedList">
+        </activity>        
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_app_name"
+            android:name=".ui.phone.BlogFeedList">
+        </activity>        
+        
+    </application>
+
+</manifest>

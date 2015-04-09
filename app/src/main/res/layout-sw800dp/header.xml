@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+
+        <TextView style="@style/ImageSpacer800" />
+       
+		<ImageView
+		    android:id="@+id/calendar"
+		    style="@style/MenuFrameImageItem800"
+		    android:src="@drawable/calendar"
+		    android:contentDescription="@string/title_menu_by_date" />
+
+        <TextView style="@style/ImageSpacer800" />
+		
+		<ImageView
+		    android:id="@+id/byregion"
+		    style="@style/MenuFrameImageItem800"
+		    android:src="@drawable/world"
+		    android:contentDescription="@string/title_menu_by_country" />
+
+        <TextView style="@style/ImageSpacer800" />
+		
+   		<ImageView
+		    android:id="@+id/playlists"
+		    style="@style/MenuFrameImageItem800"
+		    android:src="@drawable/playlist"
+		    android:contentDescription="@string/title_menu_ufowatchlists" />
+			
+        <TextView style="@style/ImageSpacer800" />
+   		
+		<ImageView
+		    android:id="@+id/channels"
+		    style="@style/MenuFrameImageItem800"
+		    android:src="@drawable/channel"
+		    android:contentDescription="@string/title_menu_channels" />
+
+<!-- 		<TextView
+	        android:id="@+id/reports"
+	        style="@style/LargeMenuFrameItem"
+	        android:text="@string/title_menu_reports" />
+
+		<TextView
+	        android:id="@+id/maps"
+	        style="@style/LargeMenuFrameItem"
+	        android:text="@string/title_menu_maps" />
+ -->
+        <TextView style="@style/ImageSpacer800" />
+
+   		<ImageView
+		    android:id="@+id/feeds"
+		    style="@style/MenuFrameImageItem800"
+		    android:src="@drawable/rss"
+		    android:contentDescription="@string/title_menu_feeds" />
+
+        <TextView style="@style/ImageSpacer800" />
+   		
+		<ImageView
+		    android:id="@+id/blogs"
+		    style="@style/MenuFrameImageItem800"
+		    android:src="@drawable/blogger"
+		    android:contentDescription="@string/title_menu_blogs" />
+
+        <TextView style="@style/ImageSpacer800" />
+				
+		<TextView
+	        android:id="@+id/mylists"
+	        style="@style/LargeMenuFrameItem"
+	        android:text="@string/title_menu_mylists" />
+		
+		<TextView
+	        android:id="@+id/more"
+	        style="@style/LargeMenuFrameItem"
+	        android:text="@string/title_menu_more" />
+						
+	</LinearLayout>
+	
+    <TextView style="@style/VerticalSeparator" />
+							
+</LinearLayout>
+

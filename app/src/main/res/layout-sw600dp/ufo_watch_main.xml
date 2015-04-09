@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    
+    <FrameLayout android:id="@+id/frame_menu"
+        android:layout_width="wrap_content" 
+        android:layout_height="fill_parent" />
+
+   <FrameLayout android:id="@+id/frame_list"
+        android:layout_width="wrap_content" 
+        android:layout_height="fill_parent" />
+    
+    <LinearLayout 
+        android:id="@+id/layout_play_info_frames"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:fadingEdge="vertical">
+		
+	    <FrameLayout android:id="@+id/frame_play"
+	        android:layout_weight="4" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="0dip" />
+			
+		<FrameLayout android:id="@+id/frame_info"
+		    android:layout_weight="1"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="0dip"
+		    android:baselineAligned="true" />
+	</LinearLayout>
+</LinearLayout>

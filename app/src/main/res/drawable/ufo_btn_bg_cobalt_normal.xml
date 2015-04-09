@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- button bottom shadow -->
+    <item>
+        <shape  android:shape="rectangle">
+            <gradient android:startColor="@color/ufo_btn_tube_start_end_cobalt"
+    		android:centerColor="@color/ufo_btn_tube_center"
+   			android:endColor="@color/ufo_btn_tube_start_end_cobalt"
+            android:angle="90"/>
+            <corners android:radius="24dp" />
+		</shape>
+    </item>
+    
+    <item android:left="5px" android:top="5px" android:right="5px" android:bottom="5px">
+        <shape android:shape="oval">
+            <gradient android:startColor="@android:color/transparent"
+    		android:centerColor="@color/ufo_btn_oval_center"
+   			android:endColor="@android:color/transparent"
+            android:angle="180"/>
+		</shape>
+    </item>
+    
+</layer-list>

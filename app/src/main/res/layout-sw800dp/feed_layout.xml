@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/selected_background_color"
+	android:minHeight="@dimen/feed_grid_item_min_height" >
+			
+	<TextView android:id="@+id/feed_text"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="10dp"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	<TextView android:id="@+id/feed_updatetime"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:textColor="@android:color/secondary_text_dark"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:paddingLeft="10dp" />
+</LinearLayout>

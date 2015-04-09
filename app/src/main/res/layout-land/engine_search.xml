@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- <RadioGroup
+        android:id="@+id/radGrpQrySubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" >
+
+        <RadioButton
+            android:id="@+id/radQrySubjectSightings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/lbl_subject_sightings" />
+
+        <RadioButton
+            android:id="@+id/radQrySubjectBeings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_subject_beings" />
+    </RadioGroup> -->
+
+    <RadioGroup
+        android:id="@+id/radGrpQrySource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+		android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp" >
+
+        <RadioButton
+            android:id="@+id/radQrySourceNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/lbl_source_news" />
+
+        <RadioButton
+            android:id="@+id/radQrySourceWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_source_web" />
+
+        <RadioButton
+            android:id="@+id/radQrySourceVideos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_source_videos" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radGrpQryRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radGrpQrySource"
+        android:layout_alignLeft="@+id/radGrpQrySource"
+        android:layout_marginBottom="10dp" >
+
+        <RadioButton
+            android:id="@+id/radQryRangeDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/lbl_range_day" />
+
+        <RadioButton
+            android:id="@+id/radQryRangeWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_range_week"  />
+    </RadioGroup>
+    
+    <RadioGroup
+        android:id="@+id/radGrpQryEngine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radGrpQryRange"
+        android:layout_alignLeft="@+id/radGrpQrySource" >
+
+        <RadioButton
+            android:id="@+id/radQryEngineGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/lbl_search_engine_google" />
+
+        <RadioButton
+            android:id="@+id/radQryEngineBing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_search_engine_bing" />
+
+        <RadioButton
+            android:id="@+id/radQryEngineYahoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_search_engine_yahoo" />
+    </RadioGroup>
+    
+
+    <!-- <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radGrpQrySource"
+        android:layout_alignLeft="@+id/radGrpQrySource"
+        android:layout_marginLeft="3dp"
+        android:text="@string/lbl_btn_search"
+        android:textColor="@color/ufo_tab_highlight" /> -->
+
+
+</RelativeLayout>

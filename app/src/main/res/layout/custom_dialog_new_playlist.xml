@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:id="@+id/dialog_title_layout"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/youtube_action_create_playlist"
+            android:textColor="@color/ufo_tab_highlight"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true"
+            android:ellipsize="end" />
+        
+        <ImageView
+            android:id="@+id/dialog_image_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+			android:layout_gravity="center_vertical"
+            android:src="@drawable/btn_dialog_normal"
+            android:contentDescription="@string/lbl_btn_close" />
+	
+	</LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_title_divider" 
+        style="@style/HorizontalSeparator"
+        android:layout_below="@+id/dialog_title_layout" />
+
+    <EditText android:id="@+id/playlistTitle"
+	    android:layout_width="fill_parent"
+		android:layout_height="40sp"
+		android:layout_gravity="center_horizontal"
+		android:layout_below="@+id/dialog_title_divider"
+		android:inputType="text"
+		android:background="@drawable/ufo_edittext_bg"
+		android:hint="@string/title_app_name"
+		android:textColor="@android:color/background_dark" />
+    
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_below="@+id/playlistTitle"
+		android:orientation="horizontal" >
+
+	    <Button android:id="@+id/cancelPlaylist"
+		     style="@style/DialogUfoBtn"
+		     android:text="@android:string/no" />
+	    
+   		<Button android:id="@+id/createPlaylist"
+		     style="@style/DialogUfoBtn"
+		     android:text="@android:string/ok" />
+	    
+	</LinearLayout>
+    	
+    
+    
+</RelativeLayout>

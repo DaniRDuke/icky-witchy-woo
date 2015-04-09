@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/about"
+          android:icon="@drawable/ic_menu_info_details"
+          android:title="@string/lbl_btn_about"
+          android:orderInCategory="0"
+          android:showAsAction="never"/>
+    <item android:id="@+id/youtube"
+          android:icon="@drawable/youtube"
+          android:title="@string/lbl_btn_youtube_video"
+          android:orderInCategory="0"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/share"
+          android:icon="@drawable/ic_menu_share"
+          android:title="@string/lbl_btn_share"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom"/>
+    <!-- <item android:id="@+id/help"
+          android:icon="@drawable/ic_menu_help"
+          android:title="@string/label_btn_help"
+          android:orderInCategory="2"
+          android:showAsAction="never"/> -->
+</menu>

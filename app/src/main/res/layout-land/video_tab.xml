@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+       
+	<!-- <View style="@style/TabSpacer" /> -->
+			
+	<Button android:id="@+id/youTubeToday"
+	    style="@style/UfoBtn"
+	    android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+	    android:text="@string/title_videos_today" />
+    
+	<!-- <View style="@style/BtnSpacer" /> -->		
+
+	<Button android:id="@+id/youTubeByDate"
+	    style="@style/UfoBtn"
+	    android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="30dp"
+	    android:text="@string/title_by_date" />
+    
+	<!-- <View style="@style/BtnSpacer" /> -->		
+
+	<Button android:id="@+id/youTubeRegion"
+	    style="@style/UfoBtn"
+	    android:layout_below="@+id/youTubeToday"
+        android:layout_alignLeft="@+id/youTubeToday"
+        android:layout_marginBottom="15dp"
+	    android:text="@string/title_region" />
+    
+    <!-- <View style="@style/BtnSpacer" /> -->		
+    
+    <Button android:id="@+id/youTubePlaylists"
+	    style="@style/UfoBtn"
+	    android:layout_below="@+id/youTubeByDate"
+        android:layout_alignLeft="@+id/youTubeByDate"
+        android:layout_marginBottom="15dp"
+	    android:text="@string/title_menu_ufowatchlists" />
+
+    <!-- <View style="@style/BtnSpacer" /> -->		
+    
+    <Button android:id="@+id/myLists"
+	    style="@style/UfoBtn"
+	    android:layout_below="@+id/youTubeRegion"
+        android:layout_alignLeft="@+id/youTubeRegion"
+	    android:text="@string/title_menu_mylists" />
+
+    <!-- <View style="@style/BtnSpacer" /> -->		
+    
+    <Button android:id="@+id/youTubeChannels"
+	    style="@style/UfoBtn"
+	    android:layout_below="@+id/youTubePlaylists"
+        android:layout_alignLeft="@+id/youTubePlaylists"
+	    android:text="@string/title_menu_channels" />
+   		   		   		   		   		    	   										
+</RelativeLayout>
+    

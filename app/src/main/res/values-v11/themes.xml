@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="UfoDialog" parent="@android:style/Theme.Holo.Dialog"> 
+        <item name="android:windowTitleStyle">@style/UfoDialogWindowTitle</item>
+    </style> 
+
+    <style name="UfoDialogWindowTitle" parent="@android:style/TextAppearance.DialogWindowTitle"> 
+        <item name="android:textColor">@color/ufo_tab_highlight</item>
+        <item name="android:textSize">24sp</item> 
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>	
+
+</resources>
